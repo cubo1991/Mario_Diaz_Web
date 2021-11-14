@@ -1,38 +1,73 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
-.home {background-image: url(imagenes/ImagenFondo.jpg); background-attachment: fixed;}
-.menu {background-color: transparent; border: 0px;}
-.foto {
-height: 800px;}
-.logros {
-height: 250px;}
-.carreraPolitica {
-height: 300px;}
-.vida {
-height: 300px;
+.home {
+  background-image: url(imagenes/ImagenFondo.jpg);
+  background-attachment: fixed;
 }
-.prensa {
-height: 300px;
-}
-footer {
-height: 300px;
-}
-p{font-family: 'Varela Round', sans-serif;}
-.marioTitulo {height: 1200px;
-position: relative;
-top: 250px;
-left: 150px;
-font-size: 50px;
-font-weight: bolder;
+.menu {
+  background-color: transparent;
+  border: 0px;
 }
 
+.pie {
+  position: relative;
 
-.ulMenu { position: absolute;
-right: 450px; 
-border: 0px;}
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+
+  background-color: rgb(201, 201, 201);
+}
+.RRSS {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  height: 23px;
+  width: 23px;
+}
+p {
+  font-family: "Varela Round", sans-serif;
+}
+.marioTitulo {
+  position: relative;
+  top: 250px;
+  left: 150px;
+  font-size: 50px;
+  font-weight: bolder;
+  height: 500px;
+}
+.mariobajada {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+}
+.firma {
+  font-size: 8px;
+  position: relative;
+  top: 17px;
+}
+.bienvenida {
+  padding: 25%;
+  background-color: rgba(128, 128, 128, 0.301);
+
+  position: relative;
+  
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  border-top-width: 0px;
+  margin-top: 500px;
+}
+.ulMenu {
+  position: absolute;
+  right: 450px;
+  border: 0px;
+}
