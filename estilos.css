@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 .home {
-  background-image: url(imagenes/ImagenFondo.jpg);
+  background-image: url(ImagenFondo.jpg);
   background-attachment: fixed;
 }
 .menu {
